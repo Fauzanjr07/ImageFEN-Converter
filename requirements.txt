@@ -1,0 +1,7 @@
+numpy>=1.24
+opencv-python>=4.8
+Pillow>=10.0
+tqdm>=4.66
+# Install PyTorch/torchvision separately if this fails; see https://pytorch.org/get-started/locally/
+torch>=2.2
+torchvision>=0.17
