@@ -1,0 +1,54 @@
+# --- Python caches & build ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pdb
+build/
+dist/
+*.egg-info/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Editors/IDE ---
+.vscode/
+*.code-workspace
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Virtual environments & local env files ---
+.env
+.env.*
+.venv/
+venv/
+env/
+.conda/
+
+# --- Project-generated artifacts (safe to ignore) ---
+*_grid.png
+*_pred.png
+*_pred_orig.png
+*_squares/
+*.fen.txt
+predictions.csv
+results/
+
+# Optional: ignore model weights (uncomment lines below to keep them untracked)
+weights/*.pt
+best_model_saver/*.pt
+
+# Logs & temp
+*.log
+*.tmp
+tmp/
+
+# Optional: ignore large datasets (uncomment if you don't want to commit training data)
+# data/raw/
+# data/train/
+# data/val/

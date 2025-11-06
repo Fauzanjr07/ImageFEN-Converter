@@ -1,0 +1,2 @@
+data1 = menggunakan data dengan citra yang dengan jumlah kelas yang bergantung dengan banyaknya bidak
+data2 = memggunakan data dengan citra yang dengan jumlah kelas yang sama
